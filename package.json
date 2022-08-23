@@ -1,0 +1,31 @@
+{
+  "name": "crud-app-nodejs-mongodb",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">     <img alt=\"Logo John Pires\" title=\"#johnpires\" src=\"https://user-images.githubusercontent.com/26515702/131767552-804dece8-a677-4852-9646-39e4095a91bc.png\" width=\"200px\" /> </h1>",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "mocha --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnpires/CRUD-APP-Node.js-MongoDB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnpires/CRUD-APP-Node.js-MongoDB/issues"
+  },
+  "homepage": "https://github.com/johnpires/CRUD-APP-Node.js-MongoDB#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.5.2",
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.0.0"
+  }
+}
